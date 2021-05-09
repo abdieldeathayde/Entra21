@@ -21,6 +21,6 @@ def calculaMedia():
             else:
                 print("insira uma nota menor que 10 e maior que 0")
         print(str(alunosEmRecuperacao) + " Alunos ficaram em recuperação")
-        print("Digite a quantidade de alunos: ")
+        print("Digite a quantidade de notas: ")
         n = int(input())
 calculaMedia()
